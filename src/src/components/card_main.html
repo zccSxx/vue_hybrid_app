@@ -1,0 +1,39 @@
+<div class="card">
+
+    <div class="card_head">
+        <div class="card_photo card_head_img">
+            <slot name="head_img">
+                <!--<img id="card_photo_huabei" src="./img/huabei.svg">-->
+            </slot>
+        </div>
+        <div class="card_info">
+            <div class="card_info_word">
+                <slot name="card_name">
+                    <!--蚂蚁花呗·本月账单-->
+                </slot>
+            </div>
+            <div class="card_info_time">
+                <slot name="card_time">
+                    <!--48分钟前-->
+                </slot>
+            </div>
+        </div>
+        <div class="card_other">
+            <img class="qita" src="./img/qita.svg">
+        </div>
+    </div>
+
+    <slot name="card_content">
+        <!--<div id="card_mayi_content" class="card_content">已还清</div>-->
+    </slot>
+
+
+    <div class="has-line card_line"></div>
+
+    <div class="card_foot">
+        <slot name="card_foot">
+            <!--查看详情-->
+        </slot>
+    </div>
+
+</div>
