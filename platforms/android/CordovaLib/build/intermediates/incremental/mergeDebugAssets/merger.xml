@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\new_demo\com.zcc.demo\platforms\android\CordovaLib\assets"/><source path="E:\new_demo\com.zcc.demo\platforms\android\CordovaLib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\new_demo\com.zcc.demo\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="F:\vue_app\vue_hybrid_app\platforms\android\CordovaLib\assets"/><source path="F:\vue_app\vue_hybrid_app\platforms\android\CordovaLib\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="F:\vue_app\vue_hybrid_app\platforms\android\CordovaLib\src\debug\assets"/></dataSet></merger>

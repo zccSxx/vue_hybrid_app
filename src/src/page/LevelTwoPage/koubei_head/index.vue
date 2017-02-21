@@ -32,7 +32,7 @@ export default {
   name: 'head',
   data: function(){
     return{
-      city: '北京'          //当前城市
+      city: '未知'          //当前城市
     }
   },
   mounted: function(){
@@ -89,13 +89,13 @@ export default {
   margin:0 auto;
 }
 .searchDiv{
-  margin: 6px 8px;
+  /*margin: 6px 8px;*/
   background-color: #308dd6;
   color: #cfe5f6;
   margin-left: 5%;
-  float: left;
+  /*float: left;*/
   width: 95%;
-  display: inline-table;
+  display: table;
 }
 .headDiv1{
   display: table-cell;
@@ -131,7 +131,7 @@ export default {
 }
 .d2{
   text-align: left;
-  font-size: 3.5vmin;
+  font-size: 3.2vmin;
   line-height: 24px;
   /*padding-top: 3px;*/
 }
