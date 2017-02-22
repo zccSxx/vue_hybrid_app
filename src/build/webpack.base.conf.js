@@ -26,7 +26,7 @@ let webpackConfig = {
     'BMap': 'BMap'
   },
   resolve: {
-    extensions: ['', '.js', '.vue', '.json', '.css'],
+    extensions: ['', '.js', '.vue', '.json', '.css', '.less'],
     fallback: [path.join(__dirname, '../node_modules')],
     alias: {
       'vue$': 'vue/dist/vue.common.js',
@@ -73,6 +73,10 @@ let webpackConfig = {
       {
         test: /\.json$/,
         loader: 'json'
+      },
+      {
+        test: /\.less$/,
+        loader: 'less'
       },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

@@ -20,9 +20,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/*@myName: blue
+/*@color: blue;
 div{
-  background-color: @myName;
+  background-color: @color;
   height:100px;
   width:100px;
 }*/
