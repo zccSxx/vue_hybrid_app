@@ -63,7 +63,7 @@ export default {
     var pageView = this;
     var myCity = new BMap.LocalCity();
 	  myCity.get(function(result){
-      console.log(result);
+      // console.log(result);
       pageView.city = result.name.split("市")[0];
     });
 
