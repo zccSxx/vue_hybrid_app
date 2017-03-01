@@ -20,7 +20,7 @@ const routes = [
             //空路由默认主页面
             {
                 path: '/',
-                name: 'default',
+                name: 'home_default',
                 components: {
                     foot: Main_Foot,
                     head: Main_Head,
@@ -67,15 +67,20 @@ const routes = [
             //口碑页面
             {
                 path: '/koubei',
+                name: 'koubei',
                 components: {
                     content: Koubei_Content,
                     foot: Main_Foot,
                     head: Koubei_Head,
                 }
             },
+
+            //后两个界面以后有空再做，先和第一二个界面一样 
+
             //朋友页面
             {
                 path: '/pengyou',
+                name: 'pengyou',
                 components: {
                     content: Main_Content,
                     foot: Main_Foot,
@@ -85,10 +90,11 @@ const routes = [
             //个人信息页面
             {
                 path: '/wode',
+                name: 'wode',
                 components: {
-                    content: Main_Content,
+                    content: Koubei_Content,
                     foot: Main_Foot,
-                    head: Main_Head,
+                    head: Koubei_Head,
                 }
             }
         ]

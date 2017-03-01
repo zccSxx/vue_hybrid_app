@@ -23,6 +23,7 @@
 </template>
 
 <script>
+// 上标栏事件，以后有空再写
 export default {
   name: 'head',
   data: function(){
@@ -33,10 +34,10 @@ export default {
 
   methods: {
     clickSearch: function(){
-      alert("search");
+
     },
     clickYuyin: function(){
-      alert("yuyin");
+
     }
   }
 }

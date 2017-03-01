@@ -60,11 +60,14 @@ export default {
     //   }
     // });
 
+
+    // 使用百度地图SDK引入JS的方式呈现当前城信息
+
     var pageView = this;
     var myCity = new BMap.LocalCity();
 	  myCity.get(function(result){
       // console.log(result);
-      pageView.city = result.name.split("市")[0];
+      pageView.city = result.name;
     });
 
   },
@@ -116,7 +119,7 @@ export default {
   text-align: center;
 }
 .headDiv1Word{
-  font-size: 4.5vmin;
+  font-size: 4.1vmin;
   height: 48px;
   line-height: 48px;
   text-align: center;

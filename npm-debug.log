@@ -2,14 +2,14 @@
 1 verbose cli [ 'D:\\soft\\node.js\\install\\node.exe',
 1 verbose cli   'D:\\soft\\node.js\\install\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'run',
-1 verbose cli   'build' ]
+1 verbose cli   'dev' ]
 2 info using npm@3.8.9
 3 info using node@v6.2.0
 4 verbose stack Error: ENOENT: no such file or directory, open 'F:\vue_app\vue_hybrid_app\package.json'
 4 verbose stack     at Error (native)
 5 verbose cwd F:\vue_app\vue_hybrid_app
 6 error Windows_NT 6.1.7601
-7 error argv "D:\\soft\\node.js\\install\\node.exe" "D:\\soft\\node.js\\install\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+7 error argv "D:\\soft\\node.js\\install\\node.exe" "D:\\soft\\node.js\\install\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
 8 error node v6.2.0
 9 error npm  v3.8.9
 10 error path F:\vue_app\vue_hybrid_app\package.json

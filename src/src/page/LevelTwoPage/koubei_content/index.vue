@@ -1,15 +1,9 @@
 <template>
   <div>
-    <input id="upload" type="file" @change="getFile" accept="image/*" />
-
-    <img v-if="hasImg" :src="url" height="100" width="100" />
-  </div>
-  
-
-
-  <!--<div></div>-->
-  
+     <!--<div></div>-->
+  <!--口碑主界面，最近忙，以后有空再写-->
   <!--<iframe src="http://image.baidu.com/wisehomepage/feeds" width="200" height="300"></iframe>-->
+  </div>
 </template>
 
 <script>
@@ -18,36 +12,17 @@ export default {
 
   data: function(){
     return{
-      imgFile: null,
-      hasImg: false,
-      url: ""
+
     }
   },
 
-  methods: {
-    getFile: function(){
-
-      console.log("begin");
-      let pageView = this;
-      let fileArr = Array.prototype.slice.apply(this.$el.querySelector("#upload").files);
-      console.log(fileArr);
-      for(let img of fileArr){
-        let reader = new FileReader();
-        console.log(reader);
-        reader.onload = function(){
-          console.log(this.result);
-          pageView.url = this.result;
-          pageView.hasImg = true;
-        }
-        reader.onerror = function(e){
-          // alert("error");
-          console.log(reader.error);
-        }
-        reader.readAsText(img);
-      }
-
+  mounted: function(){
       
-    }
+  },
+
+  methods: {
+
+
   }
 }
 </script>

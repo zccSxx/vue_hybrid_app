@@ -1,6 +1,7 @@
 <template>
   <div id="main_content">
       <!--大图标区域-->
+      <!--因为没有合适的图，美工也顾不上配合，就先凑合几个图标-->
       <div id="centerTool" class="contentArea">
         <div id="isShowLabal">
           <div class="imgLabal">
@@ -14,6 +15,10 @@
           <div class="imgLabal">
             <img class="bigImg" src="./img/kajuan.svg">
             <div class="wordLabal">卡劵</div>
+          </div>
+          <div class="imgLabal">
+            <img class="bigImg" src="./img/saoyisao.svg">
+            <div class="wordLabal">到位</div>
           </div>
           <div class="imgLabal">
             <!--<img class="bigImg" src="./img/fukuan.svg">-->
